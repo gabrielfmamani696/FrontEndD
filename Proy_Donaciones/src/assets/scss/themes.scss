@@ -1,0 +1,277 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$custom-primary-palette: (
+    50 : #fbfdfe,
+    100 : #f5f9fc,
+    200 : #eef5fa,
+    300 : #e7f1f7,
+    400 : #e2eef6,
+    500 : #ddebf4,
+    600 : #d9e9f3,
+    700 : #d4e5f1,
+    800 : #cfe2ef,
+    900 : #c7ddec,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    ),
+);
+
+$custom-accent-palette: (
+    50 : #e6ebef,
+    100 : #c0ced7,
+    200 : #97adbc,
+    300 : #6d8ca1,
+    400 : #4d748c,
+    500 : #2e5b78,
+    600 : #295370,
+    700 : #234965,
+    800 : #1d405b,
+    900 : #122f48,
+    A100 : #83c1ff,
+    A200 : #50a7ff,
+    A400 : #1d8eff,
+    A700 : #0381ff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
+$warn-palette: (
+    50 : #f7f6fc,
+    100 : #ebe9f8,
+    200 : #dedbf3,
+    300 : #d1cdee,
+    400 : #c7c2ea,
+    500 : #bdb7e6,
+    600 : #b7b0e3,
+    700 : #aea7df,
+    800 : #a69fdb,
+    900 : #9890d5,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #eeecff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$main-palette: (
+    50 : #ffffff,
+    100 : #ffffff,
+    200 : #ffffff,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+// // // // // // 
+// // // // // // 
+// // // // // // 
+// // // // // // 
+// // // // // // 
+// // // // // // 
+// // // // // // 
+// // // // // // 
+
+$custom-primary-palette2: (
+    50 : #e1e8e8,
+    100 : #b4c5c5,
+    200 : #829e9f,
+    300 : #507779,
+    400 : #2b595c,
+    500 : #053c3f,
+    600 : #043639,
+    700 : #042e31,
+    800 : #032729,
+    900 : #011a1b,
+    A100 : #59f4ff,
+    A200 : #26f1ff,
+    A400 : #00e2f2,
+    A700 : #00cad9,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+
+$custom-accent-palette2: (
+    50 : #e4f3f5,
+    100 : #bce1e6,
+    200 : #90cdd5,
+    300 : #63b9c4,
+    400 : #41aab8,
+    500 : #209bab,
+    600 : #1c93a4,
+    700 : #18899a,
+    800 : #137f91,
+    900 : #0b6d80,
+    A100 : #b1f1ff,
+    A200 : #7ee8ff,
+    A400 : #4bdeff,
+    A700 : #31daff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$warn-palette2: (
+    50 : #edf4e2,
+    100 : #d3e4b6,
+    200 : #b6d286,
+    300 : #98bf56,
+    400 : #82b231,
+    500 : #6ca40d,
+    600 : #649c0b,
+    700 : #599209,
+    800 : #4f8907,
+    900 : #3d7803,
+    A100 : #ccffa6,
+    A200 : #afff73,
+    A400 : #92ff40,
+    A700 : #83ff26,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+
+
+
+// // // // // // 
+// // // // // // 
+// // // // // // 
+// // // // // // 
+$custom-primary: mat.define-palette($custom-primary-palette2, 500);
+$custom-accent: mat.define-palette($custom-accent-palette2, 500);
+$warn: mat.define-palette($warn-palette2, 600);
+
+$main: mat.define-palette($main-palette, 600);
+
+$custom-theme: mat.define-light-theme(
+    (
+        color: (
+            primary: mat.define-palette($custom-primary),
+            accent: mat.define-palette($custom-accent),
+            warn: mat.define-palette($warn),
+            main: mat.define-palette($main),
+        ),
+    )
+);
+
+@include mat.all-component-themes($custom-theme);
+
+// @include mat.core-theme($custom-theme);
+
+// Emit styles for MatButton based on `$my-theme`. Because the configuration
+// passed to `define-light-theme` omits typography, `button-theme` will not
+// emit any typography styles.
+// @include mat.button-theme($custom-theme);
+// @include mat.app-navigation-theme($custom-theme);

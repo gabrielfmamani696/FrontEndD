@@ -16,12 +16,14 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
+import { VolPruebaComponent } from './vol-prueba/vol-prueba.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    FormComponent
+    FormComponent,
+    VolPruebaComponent
   ],
   imports: [
     BrowserModule,
